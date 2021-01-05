@@ -1,7 +1,7 @@
 [ ca ]
-default_ca = Fishdrowned_ROOT_CA
+default_ca = G123
 
-[ Fishdrowned_ROOT_CA ]
+[ G123 ]
 new_certs_dir   = ./out/newcerts
 certificate     = ./out/root.crt
 database        = ./out/index.txt
@@ -55,10 +55,10 @@ commonName                      = Common Name
 emailAddress                    = Email Address
 
 # Optionally, specify some defaults.
-countryName_default             = CN
-stateOrProvinceName_default     = Guangdong
-localityName_default            = Guangzhou
-0.organizationName_default      = Fishdrowned
+countryName_default             = JP
+stateOrProvinceName_default     = Tokyo
+localityName_default            = Tokyo
+0.organizationName_default      = G123
 organizationalUnitName_default  =
 emailAddress_default            =
 
